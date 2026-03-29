@@ -1,4 +1,3 @@
-# AI-resume-analyzer
 # AI Resume Analyzer
 
 An AI-powered web application that analyzes resumes using NLP and provides:
