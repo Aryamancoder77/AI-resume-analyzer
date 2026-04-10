@@ -17,7 +17,7 @@ app.post("/upload", upload.single("resume"), async (req, res) => {
       file_path: filePath,
     });
 
-    fs.unlinkSync(filePath); // delete file after processing
+    fs.unlinkSync(filePath); 
 
     res.json(response.data);
   } catch (err) {
